@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <caption>Caption-Nested Table</caption>
+        <table border="1px" style="padding: 5px;">
+            <tr>
+                <th>Column 1</th>
+                 <th>Column 2</th>
+            </tr>
+         <tr>
+            <td colspan="2"><center> Colspan column</center></td>
+         </tr>
+         <tr>
+            <td rowspan="3"><center>Rowspan <br> Cell</center></td>
+            <td><center> Cell 2</center></td>
+         </tr>
+            <tr>
+                <td>
+                    <table border="1px" style="background-color: yellow; padding: 5px;">
+                        <tr>
+                            <th><center>Inner Column <br>Heading 1</center></th>
+                            <th colspan="2"><center>Inner Column Heading 2</center></th>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" style="background-color: gray;"><center>Inner Data Cell <br> 1</center></td>
+                           <td ><center>
+                                <table border="1px" style="background-color: greenyellow;padding: 5px; ">
+                                    <tr style="background-color: peachpuff;">
+                                        <th>
+                                            <center>Inner Most <br> Column Heading <br>1</center>
+                                        </th>
+                                        <th>
+                                            <center>Inner Most <br> Column Heading <br>2</center>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color: palevioletred;"><center>Innermost Data<br>Cell 1</center></td>
+                                        <td style="background-color: red;"><center>Innermost Data<br>Cell 2</center></td>
+                                    </tr>
+                                </table></center>
+                         </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+         
+        </table>
+    </center>
+</body>
+</html>

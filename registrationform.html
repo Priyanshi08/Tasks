@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <center>
+      <h1><u>STUDENT REGISTRATION FORM</u></h1>
+      <fieldset  style="background-color: lightblue; width: 50%;">
+        <form action="" method="post" >
+          <table>
+            <tr>
+              <td>
+                <label for="">FIRST NAME</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="fname"
+                  value=""
+                  pattern="[A-Za-z0-9]{5,6}" 
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">LAST NAME</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="lname"
+                  value=""
+                  pattern="[A-Za-z0-9]{5,6}"
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">DATE OF BIRTH</label>
+              </td>
+              <td>
+                <input type="datetime-local" name="bday" value="" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">EMAIL ID</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  value=""
+                  placeholder="xyz@gmail.com"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">MOBILE NUMBER</label>
+              </td>
+              <td>
+                <input
+                  type="tel"
+                  name="Mobile"
+                  value=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">GENDER</label>
+              </td>
+              <td>
+                <input type="radio" name="m" value="" >Male
+                <input type="radio" name="m" value="" >Female
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">ADDRESS</label>
+              </td>
+              <td>
+                <textarea cols="20" rows="5"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">CITY</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="city"
+                  value=""
+                  pattern="[A-Za-z0-9]{5,6}"
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">PIN CODE</label>
+              </td>
+              <td>
+                <input type="tel" name="pin" value="" pattern="[A-Za-z0-9]{4-6}" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">STATE</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="state"
+                  value=""
+                  pattern="[A-Za-z0-9]{5,6}"
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">COUNTRY</label>
+              </td>
+              <td>
+                <input type="text" name="county" value="India" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">HOBBIES</label>
+              </td>
+              <td>
+                <input type="checkbox" name="draw" value="" >Drawing
+                <input type="checkbox" name="sing" value="" >Singing
+                <input type="checkbox" name="dance" value="" >Dancing
+                <input type="checkbox" name="sketch" value="" >Sketching
+                <input type="checkbox" name="other" value="" >Other
+                <input type="box" name="" value="" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">QULIFICATION</label>
+              </td>
+              <td>
+                <table border="1px" cellspacing="10px" cellpadding="10px"  style="background-color: white;border-collapse: collapse;">
+                  <tr>
+                    <td><b><center>Sl.No.</center></b></td>
+                    <td><b><center>Examination</center></b></td>
+
+                    <td><b><center>Board</b></td>
+                    <td><b>Percentage</b></td>
+                    <td><b>Year of Passing</b></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+
+                    <td><input type="text" name="XB" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="XP" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="XYOP" value="" ></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+
+                    <td><input type="text" name="XIIB" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="XIIP" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="XIIYOP" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+
+                    <td><input type="text" name="GB" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="GP" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="GYOP" value="" ></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+
+                    <td><input type="text" name="MB" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="MP" value="" pattern="[A-Za-z0-9]{5,6}"></td>
+                    <td><input type="text" name="MYOP" value="" ></td>
+                  </tr>
+                </table>
+                <tr>
+                  <td>
+                    <label for="">COURCES APPLIED FOR</label>
+                  </td>
+                  <td>
+                    <input type="radio" name="radio" value="" >BCA
+                    <input type="radio" name="radio" value="" >B.Com
+                    <input type="radio" name="radio" value="" >B.Sc
+                    <input type="radio" name="radio" value="" >B.A
+                  </td>
+                </tr>
+              </td>
+            </tr>
+          </table>
+          <tr>
+            <td>
+              <input type="submit" name="submit" value="Submit" >
+              <input type="reset" name="reset" value="Reset" >
+            </td>
+          </tr>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
